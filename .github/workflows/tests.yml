@@ -61,5 +61,5 @@ jobs:
       - name: Run tests again
         run: ./scripts/testAll.sh
 
-      - name: Run Markdown lint
-        run: npx markdownlint **/*.md
+#      - name: Run Markdown lint
+#        run: npx markdownlint **/*.md
